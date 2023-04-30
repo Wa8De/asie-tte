@@ -1,0 +1,39 @@
+h3 {
+    color: #c5a069;
+}
+
+p {
+    color: white;
+}
+
+ul {
+    color: white;
+    list-style-type: sushi-emojis;
+    display: inline-block;
+    text-align: left;
+}
+
+@counter-style sushi-emojis {
+    system: cyclic;
+    symbols: "\1F359" "\1F35C" "\1F363" "\1F365";
+    suffix: " ";
+}
+
+.container {
+    text-align: center;
+}
+
+.call{
+    background-color:#132b2c;
+    color :#c5a069;
+    border:solid 1px #c5a069;
+    border-radius: 5px;
+    padding: 1.5vh 10px;
+    width: fit-content;
+    text-decoration: none;
+}
+.call:hover{
+    color: white;
+    text-decoration: none;
+}
+

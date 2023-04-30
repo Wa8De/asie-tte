@@ -1,0 +1,20 @@
+.galerie{
+    Animation-name: fade;
+    Animation-duration: 3s;
+}
+
+.galImage{
+    padding:10px;
+    box-shadow: 0 0 20px 0 rgb(0, 0, 0,0.5);
+
+}
+
+@keyframes fade {
+    From {
+        Opacity: 0;
+    }
+
+    To {
+        Opacity: 1;
+    }
+}

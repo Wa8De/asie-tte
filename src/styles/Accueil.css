@@ -1,0 +1,80 @@
+.reserver {
+    background-color: #132b2c;
+    color: #c5a069;
+    border: solid 1px #c5a069;
+    border-radius: 5px;
+    padding: 15px 20px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: fit-content;
+}
+
+@media screen and (max-width: 574px) {
+    .reserver {
+        left:50%;
+    }
+}
+
+.car {
+    position: relative;
+    Animation-name: fade;
+    Animation-duration: 3s;
+}
+
+@keyframes fade {
+    From {
+        Opacity: 0;
+    }
+
+    To {
+        Opacity: 1;
+    }
+}
+
+.imageAcceuil {
+    box-shadow: 0 0 10px 0 black;
+}
+
+h5,h2 {
+    color: #c5a069;
+}
+
+.cardBtn {
+    background-color: #132b2c;
+    color: #c5a069;
+    border: solid 1px #c5a069;
+    border-radius: 5px;
+    padding: 1.5vh 10px;
+    width: fit-content;
+}
+
+.animatedBtn {
+    background-color: #c5a069;
+    color: #132b2c;
+    border: solid 1px #132b2c;
+    border-radius: 5px;
+    padding: 1.5vh 10px;
+    width: fit-content;
+}
+
+.adresse,
+.contact {
+    text-decoration: none;
+    color: black;
+}
+
+.adresse:hover,
+.contact:hover {
+    text-decoration: none;
+    color: #c5a069;
+}
+
+.cards{
+    Animation-name: fade;
+    animation-delay: 1s;
+    Animation-duration: 3s;
+    animation-fill-mode: backwards;
+}

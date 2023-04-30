@@ -1,0 +1,20 @@
+.footer{
+    background-color: #132b2c;
+    margin-top: auto;
+}
+
+.navigation{
+    background-color: #132b2c;
+}
+.navigation a{
+    margin-left: 15px;
+}
+.error{
+    height: 50vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
