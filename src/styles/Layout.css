@@ -18,3 +18,23 @@
     margin-bottom: 30px;
 }
 
+/* Width and height of the scroll bar track */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 10px;
+}
+
+/* Color of the scroll bar track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Color of the scroll bar thumb */
+::-webkit-scrollbar-thumb {
+    background: #c5a069;
+}
+
+/* Color of the scroll bar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

@@ -1,0 +1,43 @@
+.food-title{
+margin-top: 15px;
+    color: white;
+}
+
+.food-description{
+    color: gray;
+}
+
+.parent{
+display: flex;
+width: 40%;
+flex-wrap: wrap;
+gap: 60px;
+justify-content: center;
+padding: 20px;
+}
+
+
+.card-container{
+border-radius: 20px ;
+border: 1px solid #c5a069;
+padding: 20px;
+}
+
+.card-container img {
+    border-radius: 20px;
+}
+
+.radios label{
+    padding: 5px;
+}
+
+.order{
+    background-color: transparent;
+    border: 1px solid #c5a069;
+    color: #c5a069;
+}
+.order:hover{
+    background-color: #a07029;
+    border: 1px solid #c5a069;
+    color: white;
+}
