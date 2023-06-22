@@ -30,15 +30,15 @@ const Data = [
         photo:menu4
     },
      {
-        title : "Tacos Dinde",
+        title : "Tacos Gratiné",
         description:'Tacos',
-        pricing:[27,47,75],
+        pricing:[35,50,80],
         photo:menu5
     },
      {
-        title : "Tacos Dinde",
-        description:'Tacos',
-        pricing:[27,47,75],
+        title : "Pastichio",
+        description:'Pastichio',
+        pricing:[40,60,80],
         photo:menu5
     },
 ]

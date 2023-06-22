@@ -78,3 +78,16 @@ h5,h2 {
     Animation-duration: 3s;
     animation-fill-mode: backwards;
 }
+
+.print{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+flex-direction: column;
+}
+.total{
+
+    font-family: "Poppins";
+}
+

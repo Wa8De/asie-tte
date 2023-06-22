@@ -1,0 +1,18 @@
+.cart-count{
+top: 0;
+}
+
+.icon {
+    color: #bdb5aa;
+}
+
+.icon-container { 
+margin-left: 50vh;
+
+}
+.icon-container  span{
+    padding-left: 2px;
+    font-size: 18px;
+    color: #c5a069;
+}
+
